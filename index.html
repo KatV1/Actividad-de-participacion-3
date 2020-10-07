@@ -12,19 +12,19 @@
             <form action="intranet.html" method="GET">
                 <div class="form-group">
                     <label for="usr">Usuario:</label>
-                    <input type="email" name="user" id="usr">
+                    <input type="email" name="user" id="usr" required class="form-control">
                 </div>
                 <div class="form-group">
-                    Contraseña: <input type="password" name="password" id="pwd" >
+                    Contraseña: <input type="password" name="password" id="pwd" class="form-control">
                 </div>
                 <button  class="btn btn-secondary btn-lg">Entrar</button>
-                <form action="formulario.html">
-                    <button  class="btn btn-primary btn-lg">Registrarse</button>
-                </form>
-                <div>
-                    <button  class="btn btn-link">¿Olvidó su contraseña?</button>
-                </div>
             </form>
+            <form action="formulario.html">
+                <button  class="btn btn-primary btn-lg">Registrarse</button>
+            </form>
+            <div>
+                <button  class="btn btn-link">¿Olvidó su contraseña?</button>
+            </div>
         </div>
     </body>
 </html>
